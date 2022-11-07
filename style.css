@@ -1,0 +1,171 @@
+body {
+  margin: 0;
+  background-color: wheat;
+}
+
+#app {
+  position: relative;
+  display: inline-block;
+}
+
+#startscreen {
+  position: absolute;
+  display: flex;
+  width: 1280px;
+  height: 768px;
+  background-image: url(images/start_screen.png);
+}
+
+#status {
+  position: absolute;
+  display: none;
+  align-items: center;
+  top: 0px;
+  right: 0px;
+}
+
+#buffs {
+  position: absolute;
+  display: none;
+  align-items: center;
+  top: 0px;
+  left: 0px;
+}
+
+#powerup,
+#speedup {
+  position: block;
+  display: flex;
+}
+
+.btn {
+  border-bottom: 3px inset rgba(0, 0, 0, 0.5);
+  border-left: 3px inset rgba(0, 0, 0, 0.5);
+  border-right: 3px inset rgba(255, 255, 255, 0.5);
+  border-top: 3px inset rgba(255, 255, 255, 0.5);
+  font-family: "Press Start 2P", cursive;
+  box-sizing: border-box;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1.5rem;
+  margin: 10px;
+  min-width: 200px;
+  padding: 0.5rem;
+}
+
+#power {
+  background: #005800;
+}
+
+#speed {
+  background: blue;
+}
+
+#power:focus,
+#power:hover {
+  background: #006800;
+}
+
+#speed:focus,
+#speed:hover {
+  background: rgb(57, 57, 221);
+}
+
+#health,
+#gold,
+#progress {
+  position: block;
+  display: flex;
+}
+
+#heart,
+#coin,
+#level {
+  position: block;
+  display: flex;
+  margin-top: 10px;
+  margin-right: 10px;
+  font-size: 36px;
+  font-family: "Press Start 2P", cursive;
+  -webkit-text-stroke: 2px blanchedalmond;
+}
+
+#icon-level {
+  margin-top: 5px;
+  position: block;
+  display: flex;
+  width: 48px;
+  color: limegreen;
+  margin-right: 10px;
+}
+
+#icon-heart {
+  margin-top: 5px;
+  position: block;
+  display: flex;
+  width: 48px;
+  color: crimson;
+  margin-right: 10px;
+}
+
+#icon-coin {
+  margin-top: 5px;
+  position: block;
+  display: flex;
+  width: 48px;
+  color: gold;
+  margin-right: 10px;
+}
+
+#gameover {
+  position: absolute;
+  display: none;
+  align-items: center;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  justify-content: center;
+  font-size: 72px;
+  color: black;
+  font-family: "Press Start 2P", cursive;
+  -webkit-text-stroke: 3px blanchedalmond;
+}
+
+#title {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  justify-content: center;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 60px;
+  color: black;
+  font-family: "Press Start 2P", cursive;
+  -webkit-text-stroke: 0.5px blanchedalmond;
+  height: 500px;
+}
+
+#startgame {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  left: 0;
+  right: 0;
+  justify-content: center;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 400px;
+  font-size: 36px;
+  color: black;
+  font-family: "Press Start 2P", cursive;
+  -webkit-text-stroke: 0.5px blanchedalmond;
+  height: 80px;
+}
