@@ -356,7 +356,7 @@ function spawnEnemies(count) {
         {
           position: { x: waypoints[0].x - xOffset, y: waypoints[0].y },
         },
-        `images/sprite${Math.trunc(Math.random() * 6)}.png`,
+        `/images/sprite${Math.trunc(Math.random() * 6)}.png`,
         hitpoint,
         speed
       )
@@ -368,7 +368,7 @@ function spawnEnemies(count) {
         {
           position: { x: waypoints[0].x, y: waypoints[0].y },
         },
-        `images/boss${Math.trunc(Math.random() * 3)}.png`,
+        `/images/boss${Math.trunc(Math.random() * 3)}.png`,
         hitpoint + 3000 * bossMultiplier,
         0.8
       )
@@ -578,7 +578,7 @@ document.querySelector("#startgame").addEventListener("click", () => {
   document.querySelector("#buffs").style.display = "flex";
 
   // load game map
-  image.src = "images/game_map.png";
+  image.src = "/images/game_map.png";
 });
 
 // animate the enemy when window is loaded
