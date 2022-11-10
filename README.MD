@@ -45,6 +45,18 @@ npm run preview
 
 ---
 
+## Wireframe
+
+![Screens](/public/assets/wireframe.jpg)
+
+The game will consist of three different screens/overlay.
+
+1. Upon launching the app, players will greeted with the loading screen. The loading screen consists of the title of the game and a **Start Game** button.
+2. Upon clicking the start game button, users will be directed to the actual game.
+   - The top right of the screen will show the **game status**, such as the level, the amount of gold and the number of hearts left. The
+   - The top left of the screen will show the **power ups** available to the players.
+3. Upon completion of the game or when the player loses, the game will pause and the third screen will overlay the game screen, showing that the game is over. To replay, players can reload the page by refreshing the app.
+
 ## Future/Possible Developments
 
 - To include towers with other abilities (slow,dps)
@@ -70,3 +82,4 @@ npm run preview
 - [2D Woman Warrior Sprite](https://craftpix.net/freebies/2d-fantasy-woman-warrior-free-sprite-sheets/)
 - [2D Fantasy Elf Sprite](https://craftpix.net/freebies/2d-fantasy-elf-free-sprite-sheets/)
 - [2D RPG Desert Tileset](https://free-game-assets.itch.io/free-rpg-desert-tileset)
+- [HeroIcons](https://heroicons.com/)
