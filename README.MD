@@ -59,7 +59,8 @@ npm run preview
 
 - With no prior experience, creating a game using HTML and JS was a challenge.
 - [Chris Courses](https://www.youtube.com/watch?v=C4_iRLlPNFc&t=7554s&ab_channel=ChrisCourses) - Credits to Chris Courses for introducing HTML Canvas concepts such as placing waypoints, collision detection, sprite animation and map building
-- [Java2s](http://www.java2s.com/ref/javascript/html-canvas-animation-velocity-with-angle.html) - Credits to explaining concepts such as animation velocity with angle
+- [Java2s](http://www.java2s.com/ref/javascript/html-canvas-animation-velocity-with-angle.html) - Credits for explaining concepts such as animation velocity with angle
+- [RPGJS](https://docs.rpgjs.dev/guide/create-tileset.html#prerequisites) - Credits for explaining the steps to creating a game
 
 ---
 
